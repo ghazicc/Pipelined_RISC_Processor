@@ -1,0 +1,32 @@
+outp | addr | data (base 16)
+
+  0:0 |    0 | c0 10 ; JMP main
+  2:0 |    2 |       ; max:
+  2:0 |    2 | 82 26 ; BGT r2, r1, 6
+  4:0 |    4 | 16 08 ; ADD r3, r0, r1
+  6:0 |    6 | e0 00 ; RET
+  8:0 |    8 |       ; r2_is_max:
+  8:0 |    8 | 16 10 ; ADD r3, r0, r2
+  a:0 |    a | e0 00 ; RET
+  c:0 |    c |       ; min:
+  c:0 |    c | 92 26 ; BLT r2, r1, 6
+  e:0 |    e | 18 08 ; ADD r4, r0, r1
+ 10:0 |   10 | e0 00 ; RET
+ 12:0 |   12 |       ; r2_is_min:
+ 12:0 |   12 | 18 10 ; ADD r4, r0, r2
+ 14:0 |   14 | e0 00 ; RET
+ 16:0 |   16 |       ; sign_of:
+ 16:0 |   16 | 9d e6 ; BLTZ r5, 6
+ 18:0 |   18 | 36 00 ; ADDI r6, r0, 0
+ 1a:0 |   1a | e0 00 ; RET
+ 1c:0 |   1c |       ; r5_is_negative:
+ 1c:0 |   1c | 36 01 ; ADDI r6, r0, 1
+ 1e:0 |   1e | e0 00 ; RET
+ 20:0 |   20 |       ; main:
+ 20:0 |   20 | 31 05 ; ADDI r1, r0, 5
+ 22:0 |   22 | 32 07 ; ADDI r2, r0, 7
+ 24:0 |   24 | d0 01 ; CALL max
+ 26:0 |   26 | d0 06 ; CALL min
+ 28:0 |   28 | 1a 20 ; ADD r5, r0, r4
+ 2a:0 |   2a | d0 0b ; CALL sign_of
+ 2c:0 |   2c | 30 47 ; ADDI r0, r2, 7
