@@ -74,6 +74,9 @@ The processor operates in a 5-stage pipeline:
 4. **Memory Access**: Access memory (load/store).
 5. **Write Back**: Write result back to register.
 
+## Datapath
+[datapath image](Datapath.jpeg)
+
 ## Team
 - [Ghazi Hajj Qasem](https://github.com/ghazicc)
 - [Ameer Jamal](https://github.com/Ameerjamal22)
