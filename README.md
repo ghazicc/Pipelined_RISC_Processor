@@ -75,7 +75,7 @@ The processor operates in a 5-stage pipeline:
 5. **Write Back**: Write result back to register.
 
 ## Datapath
-[datapath image](Datapath.jpeg)
+![datapath image](Datapath.jpeg)
 
 ## Team
 - [Ghazi Hajj Qasem](https://github.com/ghazicc)
