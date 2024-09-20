@@ -1,5 +1,5 @@
 # Pipelined RISC Processor Design
-
+This repository contains the Verilog source code of the design of a pipelined RISC processor. Additional details regarding the ISA, implementation and verification can be explored in the provided PDF report.
 # Table of Contents
 
 1. [Overview](#overview)
@@ -22,11 +22,6 @@ This project focuses on designing and verifying a simple pipelined RISC processo
 - **Design** a 16-bit pipelined RISC processor with a 5-stage pipeline.
 - **Implement** and simulate code sequences to verify the functionality of the processor.
 - **Write a testbench** to test the processor’s operations.
-
-## Team
-- [Ghazi Hajj Qasem](https://github.com/ghazicc)
-- [Ameer Jamal](https://github.com/Ameerjamal22)
-- [Mumen Anbar]()
 
 ## Processor Specifications
 - **Instruction and Word Size**: 16 bits
@@ -78,6 +73,11 @@ The processor operates in a 5-stage pipeline:
 3. **Execute**: Perform ALU operations.
 4. **Memory Access**: Access memory (load/store).
 5. **Write Back**: Write result back to register.
+
+## Team
+- [Ghazi Hajj Qasem](https://github.com/ghazicc)
+- [Ameer Jamal](https://github.com/Ameerjamal22)
+- [Mumen Anbar]()
 
 ## Acknowledgements
 The project statement was prepared by my instructors, **Aziz Qaroush** and **Ayman Hroub**, at **BZU**.
