@@ -1,5 +1,20 @@
 # Pipelined RISC Processor Design
 
+# Table of Contents
+
+1. [Overview](#overview)
+2. [Objectives](#objectives)
+3. [Team](#team)
+4. [Processor Specifications](#processor-specifications)
+   - [Instruction and Word Size](#instruction-and-word-size)
+   - [Registers](#registers)
+   - [Instruction Types](#instruction-types)
+   - [Memory](#memory)
+   - [ALU](#alu)
+5. [Instruction Set Architecture (ISA) & Opcodes](#instruction-set-architecture-isa--opcodes)
+6. [Pipeline Stages](#pipeline-stages)
+7. [Acknowledgements](#acknowledgements)
+
 ## Overview
 This project focuses on designing and verifying a simple pipelined RISC processor using Verilog, for educational purposes in **Computer Architecture**. The processor is built with a 5-stage pipeline and supports various instruction types and a custom Instruction Set Architecture (ISA).
 
