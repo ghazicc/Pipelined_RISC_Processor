@@ -8,6 +8,11 @@ This project focuses on designing and verifying a simple pipelined RISC processo
 - **Implement** and simulate code sequences to verify the functionality of the processor.
 - **Write a testbench** to test the processor’s operations.
 
+## Team
+- [Ghazi Hajj Qasem](https://github.com/ghazicc)
+- [Ameer Jamal](https://github.com/Ameerjamal22)
+- [Mumen Anbar]()
+
 ## Processor Specifications
 - **Instruction and Word Size**: 16 bits
 - **Registers**: 
