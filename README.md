@@ -59,12 +59,6 @@ The processor operates in a 5-stage pipeline:
 4. **Memory Access**: Access memory (load/store).
 5. **Write Back**: Write result back to register.
 
-## Verification & Testing
-To verify the design:
-1. Write test programs in the ISA.
-2. Simulate the design using waveform diagrams.
-3. Validate results using testbench.
-
 ## Acknowledgements
 The project statement was prepared by my instructors **Aziz Qaroush** and **Ayman Hroub** at **BZU**.
 
