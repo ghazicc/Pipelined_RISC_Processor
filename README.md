@@ -60,5 +60,5 @@ The processor operates in a 5-stage pipeline:
 5. **Write Back**: Write result back to register.
 
 ## Acknowledgements
-The project statement was prepared by my instructors **Aziz Qaroush** and **Ayman Hroub** at **BZU**.
+The project statement was prepared by my instructors, **Aziz Qaroush** and **Ayman Hroub**, at **BZU**.
 
