@@ -83,5 +83,6 @@ The processor operates in a 5-stage pipeline:
 - [Mumen Anbar]()
 
 ## Acknowledgements
-The project statement was prepared by my instructors, **Aziz Qaroush** and **Ayman Hroub**, at **BZU**.
+- The project statement was prepared by my instructors, **Aziz Qaroush** and **Ayman Hroub**, at **BZU**.
+- [customasm](https://hlorenzi.github.io/customasm/web/?fbclid=IwAR04c2OYqIuKfF8_CsOXjz62jWVuoH2OU_qp4EW0M8mgQ3RxgvCDhePUT94) - This repository proved as a useful tool for generating machine code for assembly code.
 
