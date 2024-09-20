@@ -1,0 +1,20 @@
+ outp | addr | data (base 16)
+
+  0:0 |    0 | c0 05 ; JMP main
+  2:0 |    2 |       ; sum:
+  2:0 |    2 | 1b 58 ; ADD r5, r5, r3
+  4:0 |    4 | 33 7f ; ADDI r3, r3, -1
+  6:0 |    6 | b3 1c ; BNE r3, r0, -4
+  8:0 |    8 | e0 00 ; RET
+  a:0 |    a |       ; main:
+  a:0 |    a | f0 05 ; Sv r0, 5
+  c:0 |    c | 52 00 ; LW r2, r0, 0
+  e:0 |    e | 72 02 ; SW r2, r0, 2
+ 10:0 |   10 | 63 02 ; LBu r3, r0, 2
+ 12:0 |   12 | 45 00 ; ANDI r5, r0, 0
+ 14:0 |   14 | d0 01 ; CALL sum
+ 16:0 |   16 | 75 04 ; SW r5, r0, 4
+ 18:0 |   18 | 36 b1 ; ADDI r6, r5, -15
+ 1a:0 |   1a | 36 d1 ; ADDI r6, r6, -15
+ 1c:0 |   1c | 76 06 ; SW r6, r0, 6
+ 1e:0 |   1e | 69 06 ; LBs r1, r0, 6
