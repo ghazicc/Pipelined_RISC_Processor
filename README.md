@@ -1,5 +1,5 @@
 # Pipelined RISC Processor Design
-This repository contains the Verilog source code of the design of a pipelined RISC processor. Additional details regarding the ISA, implementation and verification can be explored in the provided PDF report.
+This repository contains the Verilog source code of the design of a pipelined RISC processor. Additional details regarding the ISA, implementation and verification can be explored in the provided PDF [report](PipelinedRISCProcessor.pdf).
 # Table of Contents
 
 1. [Overview](#overview)
